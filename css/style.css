@@ -169,7 +169,7 @@ main {
     color: white;
     position: absolute;
     left: 50%;
-    transform: translateX(-60%);
+    transform: translateX(-50%);
     bottom: 50px;
 
     transition: all 0.3s;
