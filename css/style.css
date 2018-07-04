@@ -107,16 +107,24 @@ h2 {
 }
 
 .menu-btn-block.top.active {
-    transform: translateX(3.6px) rotate(38.682deg);
+	-webkit-transform: translateX(3.6px) rotate(38.682deg);
+	-moz-transform: translateX(3.6px) rotate(38.682deg);
+	-ms-transform: translateX(3.6px) rotate(38.682deg);
+	transform: translateX(3.6px) rotate(38.682deg);
 }
-
 .menu-btn-block.middle.active {
-    transform: scale(0);
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+}
+.menu-btn-block.bottom.active {
+	-webkit-transform: translateX(3.6px) rotate(-38.682deg);
+	-moz-transform: translateX(3.6px) rotate(-38.682deg);
+	-ms-transform: translateX(3.6px) rotate(-38.682deg);
+	transform: translateX(3.6px) rotate(-38.682deg);
 }
 
-.menu-btn-block.bottom.active {
-    transform: translateX(3.6px) rotate(-38.682deg);
-}
 
 .navButton {
     font-size: 18px;
