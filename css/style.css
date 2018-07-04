@@ -80,6 +80,7 @@ h2 {
 
     transition: all .4s;
 }
+
 .quote-container.sticky {
     box-shadow: 0 0 4px 1px #ccc;
     background: #fff;
@@ -138,7 +139,7 @@ h2 {
     overflow: auto;
 }
 
-#content {
+main {
     overflow: auto;
     margin: 100px auto;
     padding: 20px;
@@ -199,7 +200,7 @@ h2 {
         min-width: 155px;
         font-size: 15.5px;
     }
-    #content {
+    main {
         width: 80%;
         margin: 100px auto;
         margin-bottom: 50px;
@@ -230,7 +231,7 @@ h2 {
     #mainNav {
         height: 0;
         overflow: hidden;
-        
+
         transition: all .4s;
     }
     .quote-container.opened-nav #mainNav {
@@ -259,7 +260,7 @@ h2 {
 /*===================================================================*/
 
 @media (max-width: 767px) {
-    #content {
+    main {
         width: auto;
         padding: 15px;
     }
