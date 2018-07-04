@@ -128,25 +128,15 @@
         });
 
         $(document).ready(function() {
-            var stickyNav = function() {
+            $(window).scroll(function() {
                 var NavY = $('#container').offset().top;
                 var ScrollY = $(window).scrollTop();
 
                 if (ScrollY > NavY) {
                     $('.quote-container').addClass('sticky');
-                    //                    document.getElementById('quote-container').style.position = 'fixed';
-                    //                    $('.quote-container').addClass('stickyQuote');
                 } else {
                     $('.quote-container').removeClass('sticky');
-                    //                    document.getElementById('quote-container').style.position = 'absolute';
-                    //                    $('.quote-container').removeClass('stickyQuote');
                 }
-            };
-
-            stickyNav();
-
-            $(window).scroll(function() {
-                stickyNav();
             });
         });
 
