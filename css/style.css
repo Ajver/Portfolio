@@ -1,3 +1,7 @@
+html {
+    font-size: 1px;
+}
+
 body {
     margin: 0;
     background-color: rgb(249, 251, 255);
@@ -84,15 +88,15 @@ h2 {
 
 .menu-btn {
     display: none;
-    width: 48px;
-    height: 36px;
-    margin: 30px auto;
+    width: 36px;
+    height: 27px;
+    margin: 10px auto;
     cursor: pointer;
 }
 
 .menu-btn-block {
     width: 100%;
-    height: 6px;
+    height: 4.5px;
     background-color: #444467;
     border-radius: 3px;
     transform-origin: 0 50%;
@@ -103,7 +107,7 @@ h2 {
 }
 
 .menu-btn-block.middle {
-    margin: 9px 0;
+    margin: 7px 0;
 }
 
 .menu-btn-block.top.active {
@@ -124,7 +128,6 @@ h2 {
 	-ms-transform: translateX(3.6px) rotate(-38.682deg);
 	transform: translateX(3.6px) rotate(-38.682deg);
 }
-
 
 .navButton {
     font-size: 18px;
@@ -228,7 +231,6 @@ main {
 
 @media (max-width: 963px) {
     .quote-container {
-        min-height: 100px;
         transition: background 1s;
     }
     .quote-container.sticky {
@@ -241,6 +243,11 @@ main {
     }
     .menu-btn {
         display: block;
+/*        margin: 10px auto;*/
+/*        transform: scale(0.75);*/
+    }
+    main {
+        margin-top: 56px;
     }
     #mainNav {
         height: 0;
@@ -249,13 +256,12 @@ main {
         transition: all .4s;
     }
     .quote-container.opened-nav #mainNav {
-        height: 400px;
+        height: 370px;
     }
     .navButton {
         display: block;
-        margin: 5px auto;
+/*        margin: 5px auto;*/
         width: 198px;
-        ;
         margin-left: calc(50% - 100px);
     }
     #page-footer {
