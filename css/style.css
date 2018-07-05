@@ -66,6 +66,7 @@ h2 {
 
 #mainNav::after {
     content: "";
+    display: block;
     clear: both;
 }
 
