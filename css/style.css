@@ -256,7 +256,7 @@ main {
         transition: all .4s;
     }
     .quote-container.opened-nav #mainNav {
-        height: 370px;
+        height: 190px;
     }
     .navButton {
         display: block;
