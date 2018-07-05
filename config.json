@@ -25,10 +25,10 @@
       "src": "fontawesome"
     },
     {
-      "uid": "c35e0796f6f806945a44b1655ce7bbe7",
-      "css": "angle-circled-down",
-      "code": 61754,
-      "src": "fontawesome"
+      "uid": "e160a7e42e4e818463fd5a8607b9f608",
+      "css": "down-circle",
+      "code": 59394,
+      "src": "websymbols"
     }
   ]
 }
