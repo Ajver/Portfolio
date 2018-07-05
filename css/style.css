@@ -66,6 +66,7 @@ h2 {
 
 #mainNav::after {
     content: "";
+    display: block;
     clear: both;
 }
 
@@ -136,6 +137,8 @@ h2 {
     min-width: 200px;
     padding: 20px 0;
     border: 1px solid transparent;
+    color: #444467;
+    text-decoration: none;
 
     transition: border-right .3s, border-bottom .6s, border-left .9s, border-top 1.2s, color .9s, background-color .9s, padding .3s;
 }
@@ -254,7 +257,7 @@ main {
         transition: all .4s;
     }
     .quote-container.opened-nav #mainNav {
-        height: 370px;
+        height: 190px;
     }
     .navButton {
         display: block;
