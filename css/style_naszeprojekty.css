@@ -19,7 +19,12 @@
     background-color: #fff;
     padding: 10px;
     color: #444467;
-    
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+  
     transition: 1s;
     transform-style: preserve-3d;
 }
