@@ -61,6 +61,7 @@ h2 {
     animation-name: fade;
     animation-delay: 0.3s;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 #mainNav {
