@@ -16,7 +16,9 @@
     margin: 20px;
     width: 400px;
     height: 300px;
+    box-sizing: border-box;
     text-decoration: none;
+    flex-basis: 400px;
 }
 .oneProject{
     width 100%;
@@ -39,6 +41,8 @@
 }
 .project-img { 
     width: 240px;
+    height: 160px;
+    margin: auto;
 }
 
 .front{
@@ -71,16 +75,27 @@ header{
     border: none;
     text-align: left;
 }
-@media (max-width: 480px) {
+@media (max-width: 940px) {
   .box {
+    flex-basis: 300px;
     margin: 10px;
   }
-  main {
-    width: 100%;
+}
+@media (max-width: 690px) {
+  .box {
+    flex-basis: 240px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
+  #title {
+    font-size: 60rem;
+  }
+}
+@media (max-width: 410px) {
   #title {
     font-size: 40rem;
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 }
