@@ -6,7 +6,7 @@ body {
     margin: 0;
     background-color: rgb(249, 251, 255);
     color: #444467;
-    font-size: 18px;
+    font-size: 18rem;
     font-family: 'Advent Pro', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -27,11 +27,11 @@ body {
 h1 {
     letter-spacing: 3px;
     font-weight: 400;
-    font-size: 44px;
+    font-size: 44rem;
 }
 
 h2 {
-    font-size: 29px;
+    font-size: 29rem;
 }
 
 #title {
@@ -39,7 +39,7 @@ h2 {
     letter-spacing: 2px;
     margin: 0;
     color: #fff;
-    font-size: 80px;
+    font-size: 80rem;
     position: absolute;
     width: 100%;
     top: 30%;
@@ -52,7 +52,7 @@ h2 {
     width: 100%;
     padding: 20px 0;
     top: calc(30% + 70px);
-    font-size: 25px;
+    font-size: 25rem;
     letter-spacing: 15px;
     font-weight: 200;
     text-align: center;
@@ -131,7 +131,7 @@ h2 {
 }
 
 .navButton {
-    font-size: 18px;
+    font-size: 18rem;
     margin: 0;
     display: inline-block;
     min-width: 200px;
@@ -171,7 +171,7 @@ main {
 }
 
 .arrow {
-    font-size: 50px;
+    font-size: 50rem;
     color: white;
     position: absolute;
     left: 50%;
@@ -192,7 +192,7 @@ main {
     text-align: center;
     padding: 50px 0;
     color: #fff;
-    font-size: 20px;
+    font-size: 20rem;
 }
 
 .footerElement p {
@@ -218,7 +218,7 @@ main {
 @media (max-width: 1232px) {
     .navButton {
         min-width: 155px;
-        font-size: 15.5px;
+        font-size: 15.5rem;
     }
     main {
         width: 80%;
@@ -299,11 +299,11 @@ main {
 
 @media (max-width: 480px) {
     #title {
-        font-size: 50px;
+        font-size: 50rem;
     }
     #subtitle {
         top: calc(30% + 30px);
-        font-size: 22px;
+        font-size: 22rem;
     }
 }
 
@@ -325,10 +325,10 @@ main {
 
 @media (max-width: 320px) {
     #title {
-        font-size: 50px;
+        font-size: 50rem;
     }
     #subtitle {
-        font-size: 22px;
+        font-size: 22rem;
     }
 }
 
