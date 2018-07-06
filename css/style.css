@@ -171,7 +171,7 @@ main {
     border: 1px solid #eee;
     box-sizing: border-box;
     width: 61.8%;
-    max-width: 1000;
+    max-width: 1000px;
 }
 .arrow {
     font-size: 50rem;
