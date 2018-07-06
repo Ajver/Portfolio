@@ -1,0 +1,52 @@
+#banner{
+    height: 10vh;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+.box{
+    perspective: 600px;
+    margin:auto 20px;
+    width: 300px;
+    height: 200px;
+    float:left;
+    text-decoration: none;
+}
+.oneProject{
+    width 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 10px;
+    color: #444467;
+    
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.box:hover > .oneProject{
+    transform: rotateY(180deg);
+}
+.front{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+}
+.back{
+    transform:rotateY(180deg);
+    backface-visibility:hidden;
+    width:100%;
+    height:100%;
+    padding-top: 8px;
+}
+main {
+    background-color: rgb(249, 251, 255);
+    border: none;
+    text-align: center;
+}
+header{
+    background-color: rgb(249, 251, 255);
+    border: none;
+    text-align: left;
+}
