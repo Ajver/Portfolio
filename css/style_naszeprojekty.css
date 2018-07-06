@@ -7,8 +7,8 @@
 .box{
     perspective: 600px;
     margin: 20px;
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     text-decoration: none;
 }
 .oneProject{
@@ -21,7 +21,7 @@
     color: #444467;
   
     display: flex;
-    align-items: flex-start;
+    align-content: center;
     justify-content: center;
     align-content: center;
   

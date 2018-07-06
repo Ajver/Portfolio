@@ -57,7 +57,9 @@ h2 {
     letter-spacing: 15px;
     font-weight: 200;
     text-align: center;
+    opacity: 0;
     animation-name: fade;
+    animation-delay: 0.3s;
     animation-duration: 3s;
 }
 
@@ -170,7 +172,7 @@ main {
     background-color: #fff;
     border: 1px solid #eee;
     box-sizing: border-box;
-    width: 61.8%;
+    width: 80%;
     max-width: 1000;
 }
 .arrow {
