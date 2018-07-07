@@ -144,8 +144,6 @@ h2 {
     color: #444467;
     border: 1px solid transparent;
     text-decoration: none;
-  
-    transition: background-color .3s;
 }
 
 .navButton:hover {
@@ -242,15 +240,15 @@ main {
 
 @media (max-width: 963px) {
     .quote-container {
-        transition: all 1s;
+        transition: background 1s;
     }
     .quote-container.sticky {
-        transition: all .4s;
+        transition: background .4s;
     }
     .quote-container.opened-nav {
         box-shadow: 0 0 4px 1px #ccc;
         background: #fff;
-        transition: all .4s;
+        transition: background .4s;
     }
     .menu-btn {
         display: block;
@@ -301,9 +299,6 @@ main {
     #subtitle {
         top: calc(30% + 160px);
     }
-    main h1 {
-        font-size: 40rem;
-    }
 }
 
 /*===================================================================*/
@@ -315,9 +310,6 @@ main {
     #subtitle {
         top: calc(30% + 30px);
         font-size: 22rem;
-    }
-    main h1 {
-        font-size: 36rem;
     }
 }
 
@@ -333,9 +325,6 @@ main {
         padding: 0 15px;
         width: auto;
     }
-    main h1 {
-        font-size: 32rem;
-    }
 }
 
 /*===================================================================*/
@@ -346,9 +335,6 @@ main {
     }
     #subtitle {
         font-size: 22rem;
-    }
-    main h1 {
-        font-size: 28rem;
     }
 }
 
