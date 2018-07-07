@@ -144,6 +144,8 @@ h2 {
     color: #444467;
     border: 1px solid transparent;
     text-decoration: none;
+  
+    transition: background-color .3s;
 }
 
 .navButton:hover {
