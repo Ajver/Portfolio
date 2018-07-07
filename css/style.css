@@ -242,15 +242,15 @@ main {
 
 @media (max-width: 963px) {
     .quote-container {
-        transition: background 1s;
+        transition: all 1s;
     }
     .quote-container.sticky {
-        transition: background .4s;
+        transition: all .4s;
     }
     .quote-container.opened-nav {
         box-shadow: 0 0 4px 1px #ccc;
         background: #fff;
-        transition: background .4s;
+        transition: all .4s;
     }
     .menu-btn {
         display: block;
@@ -301,6 +301,9 @@ main {
     #subtitle {
         top: calc(30% + 160px);
     }
+    main h1 {
+        font-size: 40rem;
+    }
 }
 
 /*===================================================================*/
@@ -312,6 +315,9 @@ main {
     #subtitle {
         top: calc(30% + 30px);
         font-size: 22rem;
+    }
+    main h1 {
+        font-size: 36rem;
     }
 }
 
@@ -327,6 +333,9 @@ main {
         padding: 0 15px;
         width: auto;
     }
+    main h1 {
+        font-size: 32rem;
+    }
 }
 
 /*===================================================================*/
@@ -337,6 +346,9 @@ main {
     }
     #subtitle {
         font-size: 22rem;
+    }
+    main h1 {
+        font-size: 28rem;
     }
 }
 
