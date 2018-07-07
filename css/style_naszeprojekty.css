@@ -83,13 +83,13 @@ header{
 }
 @media (max-width: 690px) {
   .box {
-    flex-basis: 240px;
+    flex-basis: 400px;
   }
 }
 @media (max-width: 500px) {
   #title {
     font-size: 60rem;
-  }
+  }	
 }
 @media (max-width: 410px) {
   #title {
