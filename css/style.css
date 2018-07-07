@@ -59,6 +59,7 @@ h2 {
     text-align: center;
     animation-name: fade;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 #mainNav {
@@ -141,13 +142,13 @@ h2 {
     min-width: 200px;
     padding: 20px 0;
     color: #444467;
+    border: 1px solid transparent;
     text-decoration: none;
 }
 
 .navButton:hover {
     background-color: #eef;
     cursor: pointer;
-    border: 1px solid;
     border-color: white;
     color: #9999ef;
     animation-name: border;
@@ -171,7 +172,7 @@ main {
     border: 1px solid #eee;
     box-sizing: border-box;
     width: 61.8%;
-    max-width: 1200;
+    max-width: 1000px;
 }
 .arrow {
     font-size: 50rem;
@@ -372,6 +373,4 @@ main {
     50%{border-left-color: #9999ef;}
     75%{border-top-color: #9999ef;}
     100%{border-color: #9999ef;}
-    
-    
 }
