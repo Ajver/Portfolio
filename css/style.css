@@ -129,10 +129,10 @@ h2 {
 	transform: scale(0);
 }
 .menu-btn-block.bottom.active {
-	-webkit-transform: translate(0, -5px) rotate(-45deg);
-	-moz-transform: translate(0, -5px) rotate(-45deg);
-	-ms-transform: translate(0, -5px) rotate(-45deg);
-	transform: translate(0, -5px) rotate(-45deg);
+	-webkit-transform: translate(0, 10px) rotate(-45deg);
+	-moz-transform: translate(0, 10px) rotate(-45deg);
+	-ms-transform: translate(0, 10px) rotate(-45deg);
+	transform: translate(0, 10px) rotate(-45deg);
 }
 
 .navButton {
