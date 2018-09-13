@@ -117,10 +117,10 @@ h2 {
 }
 
 .menu-btn-block.top.active {
-	-webkit-transform: translateX(3.6px) rotate(38.682deg);
-	-moz-transform: translateX(3.6px) rotate(38.682deg);
-	-ms-transform: translateX(3.6px) rotate(38.682deg);
-	transform: translateX(3.6px) rotate(38.682deg);
+	-webkit-transform: translate(0, 16px) rotate(45deg);
+	-moz-transform: translate(0, 16px) rotate(45deg);
+	-ms-transform: translate(0, 16px) rotate(45deg);
+	transform: translate(0, 16px) rotate(45deg);
 }
 .menu-btn-block.middle.active {
 	-webkit-transform: scale(0);
@@ -129,10 +129,10 @@ h2 {
 	transform: scale(0);
 }
 .menu-btn-block.bottom.active {
-	-webkit-transform: translateX(3.6px) rotate(-38.682deg);
-	-moz-transform: translateX(3.6px) rotate(-38.682deg);
-	-ms-transform: translateX(3.6px) rotate(-38.682deg);
-	transform: translateX(3.6px) rotate(-38.682deg);
+	-webkit-transform: translate(0, 16px) rotate(45deg);
+	-moz-transform: translate(0, 16px) rotate(45deg);
+	-ms-transform: translate(0, 16px) rotate(45deg);
+	transform: translate(0, 16px) rotate(45deg);
 }
 
 .navButton {
