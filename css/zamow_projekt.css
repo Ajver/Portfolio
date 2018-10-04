@@ -1,14 +1,105 @@
 .step_1{
-    animation-duration: 1.7s;
+    transform: scale(0);
+    animation-name: popup;
+    animation-delay: .8s;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
 }
-.icon-edit{
-    animation-duration: 1.7s;
+.icon{
+    transform: scale(0);
+    animation-delay: .6s;
+    animation-name: popup;   
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    font-size:30px;
+}
+.line{
+    margin:8px 0;
+    width: 0;
+    height: 2px;
+    background-color: #b91a2f;
+    animation-fill-mode: forwards;
+    animation-name: width;
+    animation-duration: .7s;
+    animation-delay: .2s;
 }
 
 main{
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 @keyframes size{
     from{height: 0;}
     to{height: 50px;}
+}
+.arr{
+    margin: 20px 0;
+    transform: scale(0);
+    animation-name: popup;
+    animation-delay: 1s;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes width{
+    form{width: 0;}
+    to{width: 200px;}
+}
+@keyframes arrow{
+    
+}
+
+
+/*------------------------------------*/
+#scroll-down {
+    display: block;
+    position: relative;
+    padding-top: 30px;
+  text-align:center;
+}
+.arrow-down {
+    display: block;
+    margin: 0 auto;
+    width: 10px;
+    height: 38px;
+}
+.arrow-down:after {
+    content: '';
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #b91a2f;
+    border-right: 2px solid #b91a2f;
+    behavior: url(-ms-transform.htc);
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+#scroll-down::before {  
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 40px;
+    background: #b91a2f;
+    content: ' ';
 }
