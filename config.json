@@ -83,6 +83,12 @@
       "css": "folder",
       "code": 59401,
       "src": "fontawesome"
+    },
+    {
+      "uid": "e160a7e42e4e818463fd5a8607b9f608",
+      "css": "down-circle",
+      "code": 59402,
+      "src": "websymbols"
     }
   ]
 }
