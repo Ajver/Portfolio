@@ -7,15 +7,63 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "e82cedfa1d5f15b00c5a81c9bd731ea2",
-      "css": "info-circled",
+      "uid": "242giivkgr3e6le7b2xqi2pkdruf85mu",
+      "css": "edit",
       "code": 59392,
+      "src": "modernpics"
+    },
+    {
+      "uid": "fhpup8jff2yw9kmuwavhyqxogczcbbhj",
+      "css": "dollar",
+      "code": 59393,
+      "src": "modernpics"
+    },
+    {
+      "uid": "89eb512cb82a1c3fe83cb16134f9876c",
+      "css": "back-in-time",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "e9bce795d01ef5a058c63cab0a03dc66",
+      "css": "upload-cloud-outline",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "7034e4d22866af82bef811f52fb1ba46",
+      "css": "code",
+      "code": 61729,
       "src": "fontawesome"
     },
     {
-      "uid": "f8aa663c489bcbd6e68ec8147dca841e",
-      "css": "folder",
-      "code": 59393,
+      "uid": "6a7b9d4863bb7e6c79e9457a72d689b6",
+      "css": "tools",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "2c0b53280f82068f6bab4e2200025d9f",
+      "css": "chat",
+      "code": 59397,
+      "src": "entypo"
+    },
+    {
+      "uid": "5d3ef4b7c90d2931e641b840ee42f694",
+      "css": "loop",
+      "code": 59398,
+      "src": "iconic"
+    },
+    {
+      "uid": "c5fd349cbd3d23e4ade333789c29c729",
+      "css": "eye",
+      "code": 59399,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "026007bd17bfc67f3fe013199676f620",
+      "css": "dollar-1",
+      "code": 61781,
       "src": "fontawesome"
     },
     {
@@ -25,10 +73,16 @@
       "src": "fontawesome"
     },
     {
-      "uid": "e160a7e42e4e818463fd5a8607b9f608",
-      "css": "down-circle",
-      "code": 59394,
-      "src": "websymbols"
+      "uid": "e82cedfa1d5f15b00c5a81c9bd731ea2",
+      "css": "info-circled",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f8aa663c489bcbd6e68ec8147dca841e",
+      "css": "folder",
+      "code": 59401,
+      "src": "fontawesome"
     }
   ]
 }
