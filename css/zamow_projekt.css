@@ -1,0 +1,14 @@
+.step_1{
+    animation-duration: 1.7s;
+}
+.icon-edit{
+    animation-duration: 1.7s;
+}
+
+main{
+    overflow: hidden;
+}
+@keyframes size{
+    from{height: 0;}
+    to{height: 50px;}
+}
