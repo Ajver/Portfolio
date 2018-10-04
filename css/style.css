@@ -1,5 +1,5 @@
 html {
-    font-size: 1.2px;
+    font-size: 1px;
 }
 
 body {
@@ -175,6 +175,7 @@ main {
     box-sizing: border-box;
     width: 61.8%;
     max-width: 1000px;
+    font-size:22rem;
 }
 .arrow {
     font-size: 50rem;
