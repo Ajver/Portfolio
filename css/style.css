@@ -270,18 +270,9 @@ main {
 /*===================================================================*/
 
 @media (max-width: 963px) {
-  .quote-container {
-    transition: background 1s;
-  }
-
-  .quote-container.sticky {
-    transition: background .4s;
-  }
-
   .quote-container.opened-nav {
     box-shadow: 0 0 4px 1px #ccc;
     background: #fff;
-    transition: background .4s;
   }
 
   .menu-btn {
@@ -393,12 +384,6 @@ main {
   #subtitle {
     top: calc(30% + 30px);
   }
-/*
-
-  #mainNav {
-    text-align: center;
-  }
-*/
 }
 
 /*===================================================================*/
