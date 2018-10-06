@@ -363,10 +363,6 @@ main {
   #title {
     font-size: 50rem;
   }
-
-  #subtitle {
-    font-size: 22rem;
-  }
 }
 
 /*===================================================================*/
@@ -378,14 +374,6 @@ main {
 
   #subtitle {
     top: calc(30% + 30px);
-  }
-}
-
-/*===================================================================*/
-
-@media (max-height: 492px) and (min-width: 842px) and (max-width: 963px) {
-  .navButton {
-    width: calc(50% - 13px);
   }
 }
 
