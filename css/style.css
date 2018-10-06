@@ -313,11 +313,11 @@ main {
   #page-footer {
     width: auto;
     padding: 15px;
-    padding-bottom: 3rem;
+    padding-bottom: 30px;
   }
 
   .footerElement {
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
     padding: 0;
     display: block;
     width: 60%;
