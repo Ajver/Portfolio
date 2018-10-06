@@ -1,16 +1,18 @@
+.step_1, .icon {
+  transform: scale(0);
+  animation-name: popup;
+}
+
+.step_1, .icon, .arr, .line {
+  animation-fill-mode: forwards;
+  animation-duration: .8s;
+}
+  
 .step_1{
-    transform: scale(0);
-    animation-name: popup;
     animation-delay: 1s;
-    animation-duration: .8s;
-    animation-fill-mode: forwards;
 }
 .icon{
-    transform: scale(0);
     animation-delay: .8s;
-    animation-name: popup;   
-    animation-duration: .8s;
-    animation-fill-mode: forwards;
     font-size:30px;
 }
 .line{
@@ -18,9 +20,7 @@
     width: 0;
     height: 2px;
     background-color: #b91a2f;
-    animation-fill-mode: forwards;
     animation-name: width;
-    animation-duration: .8s;
     animation-delay: .2s;
 }
 
@@ -39,8 +39,6 @@ main{
     opacity: 0;
     animation-name: arr;
     animation-delay: 1.5s;
-    animation-duration: .8s;
-    animation-fill-mode: forwards;
 }
 
 
