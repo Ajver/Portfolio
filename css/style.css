@@ -244,11 +244,6 @@ main {
 /*===================================================================*/
 
 @media (max-width: 1232px) {
-  .navButton {
-    min-width: 155px;
-    font-size: 15.5rem;
-  }
-
   main {
     width: 80%;
     margin: 100px auto;
