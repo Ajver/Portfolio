@@ -33,38 +33,33 @@ h2 {
   font-size: 29rem;
 }
 
-#title {
+#title, #subtitle {
+  animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 3s;
+  width: 100%;
+  position: absolute;
+  color: #fff;
   opacity: 0;
+  font-weight: 200;
+}
+
+#title {
   text-align: center;
   letter-spacing: 2px;
   margin: 0;
-  color: #fff;
   font-size: 80rem;
-  position: absolute;
-  width: 100%;
   top: 30%;
-  font-weight: 200;
-  animation-name: fade;
-  animation-duration: 3s;
   animation-delay: 1s;
-  animation-fill-mode: forwards;
 }
 
 #subtitle {
-  opacity: 0;
-  color: #fff;
-  position: absolute;
-  width: 100%;
   padding: 20px 0;
   top: calc(30% + 70px);
   font-size: 25rem;
   letter-spacing: 15px;
-  font-weight: 200;
   text-align: center;
-  animation-name: fade;
-  animation-duration: 3s;
   animation-delay: 1.3s;
-  animation-fill-mode: forwards;
 }
 
 #mainNav {
@@ -272,7 +267,7 @@ main {
 @media (max-width: 963px) {
   .quote-container.opened-nav {
     box-shadow: 0 0 4px 1px #ccc;
-    background: #fff;
+    background-color: #fff;
   }
 
   .menu-btn {
