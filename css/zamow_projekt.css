@@ -56,8 +56,8 @@ main{
 
 
 @keyframes width{
-    from{width:0;transform: translate(-200px);}
-    to{width:200px; transform: translate(0);}
+    from{width:0;transform: translateX(-200px);}
+    to{width:200px; transform: translateX(0);}
 }
 @keyframes arr{
     from{opacity: 0; transform: translateY(-100px);}
