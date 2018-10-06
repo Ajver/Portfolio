@@ -34,6 +34,7 @@ h2 {
 }
 
 #title {
+    opacity: 0;
     text-align: center;
     letter-spacing: 2px;
     margin: 0;
@@ -45,9 +46,12 @@ h2 {
     font-weight: 200;
     animation-name: fade;
     animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 #subtitle {
+    opacity: 0;
     color: #fff;
     position: absolute;
     width: 100%;
@@ -59,6 +63,7 @@ h2 {
     text-align: center;
     animation-name: fade;
     animation-duration: 3s;
+    animation-delay: 1.3s;
     animation-fill-mode: forwards;
 }
 
@@ -67,8 +72,7 @@ h2 {
     text-align: center;
     transition: all .6s;
     margin-top: 3px;
-		animation-name: fade;
-		animation-duration: 3s;
+    animation-name: fade;
 }
 
 #mainNav::after {
@@ -182,7 +186,6 @@ main {
     color: white;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     bottom: 50px;
     animation-name: fade;
     animation-duration: 3s;
@@ -193,6 +196,9 @@ main {
 .arrow:hover {
     cursor: pointer;
     color: #444467;
+    animation-name:arrow;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 
 #page-footer {
@@ -220,6 +226,19 @@ main {
     max-width: 500px;
     width: 25%;
     padding: 10px;
+}
+.underline{
+    background-color: #b91a2f;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    animation-name: underline;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
 }
 
 /*===================================================================*/
@@ -369,11 +388,24 @@ main {
 /*===================================================================*/
 @keyframes fade{
     from{opacity: 0;}
-    to{opacity: 100;}
+    to{opacity: 1;}
 }
 @keyframes border{
     25%{border-bottom-color: #9999ef;}
     50%{border-left-color: #9999ef;}
     75%{border-top-color: #9999ef;}
     100%{border-color: #9999ef;}
+}
+@keyframes underline{
+    from{width:0;transform: translate(-300px);}
+    to{width:350px; transform: translate(-175px);}
+}
+@keyframes arrow{
+    0%{transform: rotate(0);}
+    40%{transform: rotate(720deg);}
+    50%{transform: translate(0)}
+    60%{transform: translateY(-10px);}
+    70%{transform: translateY(10px);}
+    80%{transform: translateY(-8px);}
+    90%{transform: translateY(8px);}
 }
