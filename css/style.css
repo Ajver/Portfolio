@@ -307,7 +307,7 @@ main {
     display: block;
     /*        margin: 5px auto;*/
     width: 198px;
-    margin-left: calc(50% - 100px);
+    margin: auto;
   }
 
   #page-footer {
