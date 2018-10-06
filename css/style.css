@@ -393,15 +393,12 @@ main {
   #subtitle {
     top: calc(30% + 30px);
   }
-
-  .navButton {
-    display: inline-block;
-    margin: 5px;
-  }
+/*
 
   #mainNav {
     text-align: center;
   }
+*/
 }
 
 /*===================================================================*/
@@ -444,12 +441,12 @@ main {
 @keyframes underline {
   from {
     width: 0;
-    transform: translate(-300px);
+    transform: translateX(-300px);
   }
 
   to {
     width: 350px;
-    transform: translate(-175px);
+    transform: translateX(-175px);
   }
 }
 
