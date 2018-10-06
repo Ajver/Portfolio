@@ -85,6 +85,7 @@ h2 {
     position: absolute;
     width: 100%;
     z-index: 103;
+  box-shadow: 0 0 0 0 transparent;
 
     transition: all .4s;
 }
@@ -306,7 +307,7 @@ main {
         width: 60%;
     }
   .arrow:hover {
-    animation: none;
+/*    animation: none;*/
   }
 }
 
@@ -407,9 +408,9 @@ main {
 @keyframes arrow{
     0%{transform: translateX(-50%) rotate(0);}
     40%{transform: translateX(-50%) rotate(720deg);}
-    50%{transform: translateX(-50%) translate(0)}
-    60%{transform: translateX(-50%) translateY(-10px);}
-    70%{transform: translateX(-50%) translateY(10px);}
-    80%{transform: translateX(-50%) translateY(-8px);}
-    90%{transform: translateX(-50%) translateY(8px);}
+    50%{transform: translateX(-50%); }
+    60%{transform: translate(-50%, -10px);}
+    70%{transform: translate(-50%, 10px);}
+    80%{transform: translate(-50%, -8px);}
+    90%{transform: translate(-50%, 8px);}
 }
