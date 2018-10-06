@@ -324,7 +324,7 @@ main {
   }
 
   .arrow:hover {
-    /*    animation: none;*/
+    animation: none;
   }
 }
 
