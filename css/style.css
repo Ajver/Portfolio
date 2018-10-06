@@ -361,15 +361,13 @@ main {
 /*===================================================================*/
 
 @media (max-width: 414px) {
-  #title {
+  #title, #subtitle {
     padding: 0 15px;
     width: auto;
   }
 
   #subtitle {
     top: calc(30% + 120px);
-    padding: 0 15px;
-    width: auto;
   }
 }
 
