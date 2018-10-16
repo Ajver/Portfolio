@@ -227,20 +227,6 @@ main {
   padding: 10px;
 }
 
-.underline {
-  background-color: #b91a2f;
-  width: 0;
-  height: 2px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  animation-name: underline;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-delay: .2s;
-  animation-fill-mode: forwards;
-}
-
 /*===================================================================*/
 
 @media (max-width: 1232px) {

@@ -17,6 +17,23 @@
   <title>Strona internetowa na zamówienie</title>
 
   <meta name="description" content="Tworzymy responsywne witryny internetowe na zamówienie. Darmowa wycena projektu.">
+  
+  <style>
+    h1#title:after {
+      content: "";
+      background-color: #b91a2f;
+      width: 0;
+      height: 2px;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      animation-delay: .2s;
+      animation-fill-mode: forwards;
+    }
+  </style>
 
 </head>
 
@@ -27,7 +44,7 @@
 
     <div class="title">
       <h1 id="title">Zawlocki & Pałka</h1>
-      <div class="underline"></div>
+<!--      <div class="underline"></div>-->
       <h2 id="subtitle">Web Development</h2>
     </div>
     
